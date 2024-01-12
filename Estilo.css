@@ -53,13 +53,13 @@ main p {
     font-size: 2rem;
     line-height: 1,5;
 }
-main table{
+main table th{
     border: 0.25rem solid gray;
     border-radius: 1rem;
     border-collapse: collapse;
 
 }
-main table *{
+main table td{
     border: 0.25rem solid gray;
     border-radius: 1rem;
     border-collapse: collapse;
