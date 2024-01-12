@@ -59,7 +59,7 @@ main table th{
     border-collapse: collapse;
 
 }
-main table td{
+main table li{
     border: 0.25rem solid gray;
     border-radius: 1rem;
     border-collapse: collapse;
