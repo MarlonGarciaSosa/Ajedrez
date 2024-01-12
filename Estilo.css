@@ -69,3 +69,19 @@ footer .Envio {
     border-radius: 1rem;
     border-collapse: collapse;
 }
+/**Celular**/
+@media (max-width: 767px) {
+    * {
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 1.40rem;
+    }
+    h2 {
+        font-size: 1.30rem;
+    }
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px) {}
+/**PC**/
+@media (min-width: 991px) {}
