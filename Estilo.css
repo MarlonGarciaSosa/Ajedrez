@@ -19,6 +19,11 @@ header #tabla2 {
 header #tabla2 th{
     border: 3px solid #444;
 }
+
+#Frontenis:hover, #Inicio:hover, #Animales:hover, #Bettas:hover {
+    background-color: rgb(100,100,100) ;
+}
+
 header #caballero{
     background-color: #333;
     width: 3rem;
