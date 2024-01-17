@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html style>
+<html>
 <head>
-    <title>Documento de ajedrez 31/12/2023</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+    <title>Ajedrez</title>
 </head>
-<body class="CambiarColor">
+<body>
     <header>
-        <table id="tabla1">
-            <tr>
-                <th>
-                    <img id="caballero" src="caballero.png">
-                </th>
-                <th>
-                    <img id="sol" class="sol" onclick="CambiarColorSol()" src="sol.png">
-                </th>
-            </tr>
-        </table>
-        <table id="tabla2">
-            <tr>
-                <th>
-                    <a id="Frontenis" href="https://marlongarciasosa.github.io/Frontenis/">Frontenis</a>
-                </th>
-                <th>
-                    <a id="Animales" href="https://marlongarciasosa.github.io/Animales/">Animales</a>
-                </th>
-                <th>
-                    <a id="Inicio" href="https://marlongarciasosa.github.io/Inicio/">Inicio</a>
-                </th>
-                <th>
-                    <a id="Bettas" href="https://marlongarciasosa.github.io/Peces/">Bettas</a>
-                </th>
-            </tr>
-        </table>        
+        <section class="header-section">
+            <table class="header-section__table">
+                <tr>
+                    <th>
+                        <img class="header-section__table__img" id="caballero" src="caballero.png">
+                    </th>
+                    <th>
+                        <img class="header-section__table__img" id="sol" onclick="CambiarColorSol()" src="sol.png">
+                    </th>
+                </tr>
+            </table>
+        </section>
+        <nav class="header-nav">
+            <table class="header-nav__table">
+                <tr>
+                    <th>
+                        <a class="header-nav__table__link" href="https://marlongarciasosa.github.io/Bettas/">Bettas</a>                  
+                    </th>
+                    <th>
+                        <a class="header-nav__table__link" href="https://marlongarciasosa.github.io/Frontenis/">Frontenis</a>
+                    </th>
+                    <th>
+                        <a class="header-nav__table__link" href="https://marlongarciasosa.github.io/Animales/">Animales</a>
+                    </th>
+                    <th>
+                        <a class="header-nav__table__link" href="https://marlongarciasosa.github.io/Inicio/">Inicio</a>
+                    </th>
+                </tr>
+            </table>
+        </nav>
     </header>
     <main>
         <section>
@@ -60,17 +67,23 @@
                 </tr>
             </table>
         </section>
-        <section>
-            <form>
-                <label for="comentario">Comentario:</label>
-                <input class="Envio" type="text" id="comentario" placeholder="Escriba un comentario">
-                <button class="Envio" type="submit">Enviar</button>
-            </form>
     </main>
+
     <footer>
-        <a href="#titulo">Regresar al titulo</a>
-        <a href="mailto:marlongs2006@gmail.com">Contactenos</a>
-        <h3 onclick="alert('ahora tienes covid')">Tocame</h3>
-    </footer>    
+
+        <form class="footer-form">
+            <br>
+            <input class="footer-form__input" type="text" placeholder="comenta algo">
+            <button class="footer-form__button" type="submit">Enviar</button>
+        </form>
+
+        <nav class="footer-nav">    
+            <a class="footer-nav__a" href="https://adoptare.org/politicas-recomendaciones">Política de adopción</a>
+            <a class="footer-nav__a" href="#titulo">Regresar al titulo</a>
+            <a class="footer-nav__a" href="mailto:marlongs2006@gmail.com">Contactenos</a>
+        </nav>
+
+    </footer>
+
 </body>
 </html>
