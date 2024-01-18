@@ -1,11 +1,14 @@
 * {
     color: lightskyblue;
     font-style: normal;
-    font-size: 2rem;
     margin: 0 auto;
     padding: 0;
     font-family: Century, Arial, sans-serif;
     border-collapse: collapse;
+}
+
+HTML {
+    background-color: #333
 }
 
 
@@ -22,6 +25,7 @@ header, header *{
     display: block;
     text-align: center;
     width: 100%;
+    padding-bottom: 6px;
 }
 .header__section #caballero{
     background-color: #333;
@@ -41,13 +45,14 @@ header, header *{
 .header__nav{
     display: block;
     text-align: center;
+    margin-bottom: 9px;
 }
 .header__nav__link{
     display: inline;
     width: 20%;
     background-color: rgb(74, 74, 74);
     color: rgb(78, 78, 248);    
-    border: 6px solid #444;
+    border: 3px solid #444;
 }
 .header__nav__link:hover {
     background-color: rgb(100,100,100);
@@ -103,7 +108,7 @@ main *, footer *{
 /**Tercera seccion**/
 .main__table{
     border: 0.25rem solid gray;
-    margin-top: 1rem;
+    margin: 1rem 0 0 2.25rem;
     background-color: rgb(25, 25, 25);
 }
 .main__table th {
@@ -128,15 +133,16 @@ main *, footer *{
     padding-top: 1rem;
     display: inline-block;
     width: 100%;
+    padding-bottom: 1rem;
 }
+
+
+/**Primera sección**/
 .footer__nav__p {
     display: inline;
 }
 .footer__nav__a {
-    border-top: 0.25rem solid black;
-    border-right: 0.25rem solid black;
-    border-bottom: none;
-    border-left: 0.25rem solid black;
+    border: 3px solid gray;
     text-decoration: none;
 }
 
@@ -144,17 +150,7 @@ main *, footer *{
 
 
 /**Celular**/
-@media (max-width: 767px) {
-    * {
-        font-size: 1.25rem;
-    }
-    h1 {
-        font-size: 1.50rem;
-    }
-    h2 {
-        font-size: 1.30rem;
-    }
-}
+@media (max-width: 767px) {}
 /**Tablet**/
 @media (min-width: 768px) and (max-width: 990px) {}
 /**PC**/
