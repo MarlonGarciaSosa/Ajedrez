@@ -5,7 +5,10 @@
     margin: 0 auto;
     padding: 0;
     font-family: Century, Arial, sans-serif;
+    border-collapse: collapse;
 }
+
+
 
 
 /**header**/
@@ -13,37 +16,41 @@ header, header *{
     background-color: #333;
 }
 
-.header-section__table__img{
-    width: 2rem;
-}
 
-.header-nav__table {
-    background-color: rgb(74, 74, 74);
+/**Primera sección**/
+.header__section{
+    display: block;
+    text-align: center;
+    width: 100%;
 }
-
-.header-nav__table th{
-    border: 3px solid #444;
-    border-collapse: collapse;
-}
-
-.header-nav__table__link {
-    color: rgb(78, 78, 248);
-}
-
-.header-nav__table__link:hover {
-    background-color: rgb(100,100,100);
-}
-
-.header-section #caballero{
+.header__section #caballero{
     background-color: #333;
+    display: inline;
     width: 3rem;
     height: 4rem;
 }
-
-.header-section #sol{
+.header__section #sol{
     background-color: #333;
+    display: inline;
     width: 2rem;
     height: 2rem;
+}
+
+
+/**Segunda nav**/
+.header__nav{
+    display: block;
+    text-align: center;
+}
+.header__nav__link{
+    display: inline;
+    width: 20%;
+    background-color: rgb(74, 74, 74);
+    color: rgb(78, 78, 248);    
+    border: 6px solid #444;
+}
+.header__nav__link:hover {
+    background-color: rgb(100,100,100);
 }
 
 
@@ -56,8 +63,6 @@ main, footer {
 
 main *, footer *{
     background-color: black;
-    letter-spacing: 2px;
-    word-spacing: 2px;
 }
 
 
@@ -73,9 +78,7 @@ main *, footer *{
 }
 .main__header__h1 {
     padding: 1rem 0 1rem 0;
-    text-transform: capitalize;
     text-decoration: underline;
-    font-size: 5rem;
 }
 .main__header__img {
     width: 100%;
@@ -94,7 +97,6 @@ main *, footer *{
     width: 95%;
     background-color: rgb(25, 25, 25);
     font-size: 2rem;
-    line-height: 1,5;
 }
 
 
@@ -102,6 +104,7 @@ main *, footer *{
 .main__table{
     border: 0.25rem solid gray;
     margin-top: 1rem;
+    background-color: rgb(25, 25, 25);
 }
 .main__table th {
     background-color: lightskyblue;
@@ -146,7 +149,7 @@ main *, footer *{
         font-size: 1.25rem;
     }
     h1 {
-        font-size: 1.40rem;
+        font-size: 1.50rem;
     }
     h2 {
         font-size: 1.30rem;
