@@ -1,19 +1,15 @@
 * {
-    color: lightgreen;
+    color: lightskyblue;
     font-style: normal;
-    text-align: center;
     font-size: 2rem;
     margin: 0 auto;
     padding: 0;
-    font-family: Century Gothic,Arial,sans-serif;
-}
-html {
-    background-color: black;
+    font-family: Century, Arial, sans-serif;
 }
 
 
 /**header**/
-header{
+header, header *{
     background-color: #333;
 }
 
@@ -51,6 +47,8 @@ header{
 }
 
 
+
+
 /**main**/
 main, footer {
     background-color: black;
@@ -62,64 +60,84 @@ main *, footer *{
     word-spacing: 2px;
 }
 
-main h1{
+
+/**Primera seccion**/
+.main__header {
+    display: inline-block;    
+    width: 100%;
+}
+.main__header * {
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+}
+.main__header__h1 {
+    padding: 1rem 0 1rem 0;
     text-transform: capitalize;
     text-decoration: underline;
     font-size: 5rem;
 }
-
-main h2{
-    font-size: 4rem;
+.main__header__img {
+    width: 100%;
+    height: auto;
 }
 
-main img {
-    width: 50%;
-    display: flex;
-}
 
-main p {
+/**Segunda seccion**/
+.text{
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+
+}
+.text__p {
+    width: 95%;
+    background-color: rgb(25, 25, 25);
     font-size: 2rem;
     line-height: 1,5;
 }
 
-main table{
+
+/**Tercera seccion**/
+.main__table{
     border: 0.25rem solid gray;
-    border-radius: 1rem;
-    border-collapse: collapse;
-
+    margin-top: 1rem;
 }
-
-main table li{
+.main__table th {
+    background-color: lightskyblue;
+    color: black;
+}
+.main__table td {
     border-top: 0.25rem solid gray;
-    border-radius: 1rem;
-    border-collapse: collapse;
+    background-color: rgb(25, 25, 25);
 }
+
+
 
 
 /**footer**/
-footer, footer * {
-    background-color: rgb(58, 58, 58);
+.footer *{
+    background-color: lightskyblue;
+    color: black;
+}
+.footer {
+    background-color: lightskyblue;
+    padding-top: 1rem;
+    display: inline-block;
+    width: 100%;
+}
+.footer__nav__p {
+    display: inline;
+}
+.footer__nav__a {
+    border-top: 0.25rem solid black;
+    border-right: 0.25rem solid black;
+    border-bottom: none;
+    border-left: 0.25rem solid black;
+    text-decoration: none;
 }
 
-.footer-nav__a {
-    color: rgb(78, 78, 248);
-}
 
-.footer-form__input {
-    border: 3px solid gray;
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    display: block;
-    margin-bottom: 0.50rem;
-
-}
-
-.footer-form__button {
-    border: 3px solid gray;
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    display: block;
-}
 
 
 /**Celular**/
