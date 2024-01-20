@@ -2,7 +2,7 @@
 function CambiarColorSol(){
     const XD = document.querySelector(".CambiarColor")  
     XD.style.color = "white"
-    const sol = document.querySelector(".header__section__img")
+    const sol = document.querySelector(".sol")
     sol.setAttribute("src", "luna.png")
     sol.setAttribute("onclick", "CambiarColorLuna()")
     
