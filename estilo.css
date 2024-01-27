@@ -5,7 +5,7 @@
 }
 
 html {
-    padding-top: 100px;
+    padding-top: 111.2px;
 }
 
 
@@ -90,7 +90,7 @@ html {
         display: inline;
         min-width: 120px;
         background-color: rgb(74, 74, 74);
-        color: rgb(78, 78, 248);    
+        color: rgb(0, 187, 255);   
         border: 3px solid #444;
         min-width: 15%;
     }
@@ -107,7 +107,7 @@ html {
         display: inline;
         min-width: 120px;
         background-color: rgb(74, 74, 74);
-        color: rgb(78, 78, 248);    
+        color: rgb(0, 187, 255);  
         border: 3px solid #444;
         min-width: 15%;
     }
@@ -125,12 +125,11 @@ html {
 }
 .main__header * {
     background-color: rgb(61, 91, 102);
-    color:  rgb(40, 157, 199);
+    color: rgb(0, 187, 255);
     text-align: center;
 }
 .main__header__h1 {
     padding: 1rem 0 1rem 0;
-    text-decoration: underline;
 }
 .main__header__img {
     width: 100%;
@@ -148,7 +147,7 @@ html {
 .text__p {
     width: 95%;
     background-color: rgb(45, 53, 56);
-    color: rgb(0, 187, 255);
+    color:  rgb(40, 157, 199);
     font-size: xx-large;
 }
 
@@ -160,6 +159,7 @@ html {
 }
 .main__table{
     border: 0.25rem solid gray;
+    border-collapse: collapse;
 }
 .main__table tr:nth-child(even){
     background-color: rgb(35, 43, 46);
@@ -169,11 +169,11 @@ html {
 }
 .main__table th {
     background-color: rgb(61, 91, 102);
-    color:  rgb(40, 157, 199);
+    color: rgb(0, 187, 255);
+    border-bottom: 0.25rem solid gray;
 }
 .main__table td {
-    border-top: 0.25rem solid gray;
-    color: rgb(0, 187, 255);
+    color:  rgb(40, 157, 199);
 }
 
 
@@ -183,7 +183,7 @@ html {
 /**footer**/
 .footer *{
     background-color: rgb(61, 91, 102);   
-    color:  rgb(40, 157, 199);;
+    color:  rgb(40, 157, 199);
 }
 .footer {
     background-color: rgb(61, 91, 102);
@@ -199,6 +199,5 @@ html {
     display: inline;
 }
 .footer__nav__a {
-    border: 3px solid gray;
-    text-decoration: none;
+    color: rgb(0, 187, 255);
 }
